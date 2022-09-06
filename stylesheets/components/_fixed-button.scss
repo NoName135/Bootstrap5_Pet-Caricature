@@ -5,7 +5,10 @@
   z-index: 99;
   width: 164px;
 }
-
+.header-button {
+  bottom: 118px;
+  right: 48px;
+}
 .custom-picture-button:hover, .header-button:hover {
   img{
     content: url('../images/btn.png');
