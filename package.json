@@ -10,8 +10,6 @@
   "devDependencies": {},
   "homepage": "https://noname135.github.io/Bootstrap5_Pet-Caricature",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC"
