@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^5.2.0"
+    "bootstrap": "^5.2.0",
+    "gh-pages": "^4.0.0"
   },
   "devDependencies": {},
+  "homepage": "https://noname135.github.io/Bootstrap5_Pet-Caricature",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC"
