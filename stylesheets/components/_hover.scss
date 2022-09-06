@@ -1,0 +1,48 @@
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  box-shadow: $secondary 0px 3px;
+}
+
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active,
+.btn-white.active {
+  background: $primary;
+}
+
+.card-img-overlay {
+  opacity: 0;
+  border-radius: 28px;
+}
+.card-img-overlay:hover {
+  opacity: 1;
+  background: transparent linear-gradient(180deg, #00000000 0%, #0000005D 100%) 0% 0% no-repeat padding-box;
+}
+
+.card-change-picture1:hover{
+  img{
+    content: url('../images/dog01-hover-1.png');
+  }
+}
+
+.card-change-picture2:hover {
+  img{
+
+    content: url('../images/dog01-hover.png');
+  }
+
+}
+.card-change-picture3:hover {
+  img {
+    content: url('../images/dog01-hover-2.png');
+  }
+}
+
+.text-more {
+  color: $secondary;
+  &:hover {
+    color: $primary;
+  }
+}

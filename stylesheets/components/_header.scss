@@ -1,0 +1,15 @@
+.header {
+  height: 810px;
+  background-position: center center;
+  background-size: cover;
+  @media (max-width: 992px) {
+    height: 635px;
+  }
+}
+
+.header2 {
+  height: 288px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

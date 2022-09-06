@@ -1,0 +1,10 @@
+.design-list {
+  &:hover, &active {
+    color: #F9C745;
+    @media (min-width: 992px) {
+      &::before {
+        content: "- ";
+      }
+    }
+  }
+}

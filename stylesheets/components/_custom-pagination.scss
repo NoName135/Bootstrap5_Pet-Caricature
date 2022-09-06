@@ -1,0 +1,15 @@
+.page-link {
+  color: $secondary;
+  border: 0;
+  background: transparent;
+
+  &:hover {
+    color: $primary;
+    background: transparent;
+  }
+
+  &:focus {
+    --bs-pagination-focus-box-shadow: 0;
+    --bs-pagination-focus-bg: transparent;
+  }
+}

@@ -1,0 +1,10 @@
+nav {
+  @media (max-width: 992px) {
+    border-bottom: $primary 2px solid;
+  }
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: $primary;
+}
