@@ -10901,6 +10901,7 @@ fieldset:disabled .btn {
 }
 
 .header {
+  position: relative;
   height: 810px;
   background-position: center center;
   background-size: cover;
@@ -10978,12 +10979,7 @@ fieldset:disabled .btn {
   width: 164px;
 }
 
-.header-button {
-  bottom: 118px;
-  right: 48px;
-}
-
-.custom-picture-button:hover img, .header-button:hover img {
+.custom-picture-button:hover img {
   content: url("../images/btn.png");
 }
 
