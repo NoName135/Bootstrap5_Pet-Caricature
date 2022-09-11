@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pet Caricature</title>
-  <link rel="stylesheet" href="./stylesheets/all.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,11 +14,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="./stylesheets/all.css">
+
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-white bg-white sticky-top">
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
     <div class="container-fluid mx-4 my-2">
-      <a class="navbar-brand mx-4" href="#">
+      <a class="navbar-brand" href="#">
         <img src="./images/logo.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +28,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item mx-4">
+          <li class="nav-item mx-4 active">
             <a class="nav-link" aria-current="page" href="index.html">首頁</a>
           </li>
           <li class="nav-item mx-4">
@@ -48,15 +49,15 @@
   </nav>
 
   <header class="d-none d-lg-flex header align-items-center justify-content-center" style="background-image: url(images/home.png)">
-    <div class="text-white">
-      <h2 class="display-5 text-whiteStroke font-secondary fw-bold">Full of fur. Full of love</h2>
-    </div>
+    <section class="text-white">
+      <h1 class="h2 display-5 text-whiteStroke font-secondary fw-bold">Full of fur. Full of love</h1>
+    </section>
   </header>
   <header class="d-block d-lg-none header align-items-center justify-content-center" style="background-image: url(images/home_mobile.png)">
   </header>
 
   <section class="container my-5">
-    <div class="row row-cols-1 row-cols-lg-2 d-flex flex-row-reverse align-items-center">
+    <div class="row row-cols-1 row-cols-lg-2 flex-row-reverse align-items-center">
       <div class="col pt-4">
         <h4 class="text-primary font-secondary text-center text-lg-start fw-bold">Service</h4>
         <h2 class="fw-bold text-center text-lg-start px-5 px-lg-0 lh-lg">您出錢 我出力 一起助浪浪</h2>
@@ -72,8 +73,8 @@
     <div class="py-lg-4">
         <img class="d-block m-auto" src="./images/title01.png" alt="">
     </div>
-    <div class="row row-cols-2 row-cols-lg-4 py-3">
-      <div class="col">
+    <ul class="list-unstyled row row-cols-2 row-cols-lg-4 py-3">
+      <li class="col">
         <a href="#" class="card border-0 mb-4">
           <img src="./images/05.png" class="w-100 rounded-5 card-img" alt="">
           <div class="card-img-overlay d-flex align-items-end">
@@ -83,8 +84,8 @@
             </div>
           </div>
         </a>
-      </div>
-      <div class="col">
+      </li>
+      <li class="col">
         <a href="#" class="card border-0 mb-4">
           <img src="./images/07.png" class="w-100 rounded-5 card-img" alt="">
           <div class="card-img-overlay d-flex align-items-end">
@@ -94,8 +95,8 @@
             </div>
           </div>
         </a>
-      </div>
-      <div class="col">
+      </li>
+      <li class="col">
         <a href="#" class="card border-0 mb-4">
           <img src="./images/06.png" class="w-100 rounded-5 card-img" alt="">
           <div class="card-img-overlay d-flex align-items-end">
@@ -105,8 +106,8 @@
             </div>
           </div>
         </a>
-      </div>
-      <div class="col">
+      </li>
+      <li class="col">
         <a href="#" class="card border-0 mb-4">
           <img src="./images/Michael.png" class="w-100 rounded-5 card-img" alt="">
           <div class="card-img-overlay d-flex align-items-end">
@@ -116,8 +117,8 @@
             </div>
           </div>
         </a>
-      </div>
-    </div>
+      </li>
+    </ul>
     <div class="py-4">
       <div class="row row-cols-1 row-cols-lg-2 justify-content-center">
         <div class="col d-flex justify-content-center justify-content-lg-end">
@@ -134,12 +135,12 @@
     <div class="py-3 py-lg-4">
         <img class="d-block m-auto" src="./images/title02.png" alt="">
     </div>
-    <div class="row row-cols-1 row-cols-lg-3">
-      <div class="col mt-3">
+    <ul class="list-unstyled row row-cols-1 row-cols-lg-3">
+      <li class="col mt-3">
         <div class="card rounded-4 border-0 shadow-sm card-change-picture1">
             <img class="card-img-top rounded-top-4" src="./images/dog01.png" alt="">
           <div class="card-body">
-            <div class="card-title fw-bold">等家中-華仔</div>
+            <h2 class="h6 card-title fw-bold">等家中-華仔</h2>
             <div class="card-text border-bottom pb-4">
               目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...
             </div>
@@ -148,12 +149,12 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="col mt-3">
+      </li>
+      <li class="col mt-3">
         <div class="card rounded-4 border-0 shadow-sm card-change-picture2">
             <img class="card-img-top rounded-top-4" src="./images/04.png" alt="">
           <div class="card-body">
-            <div class="card-title fw-bold">等家中-小呆</div>
+            <h2 class="h6 card-title fw-bold">等家中-小呆</h2>
             <div class="card-text border-bottom pb-4">
               小呆有著圓圓的大眼睛，一歲的他來自台中，原本陪著一位老奶奶生活，上個月奶奶行動不便不能再陪...
             </div>
@@ -162,12 +163,12 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="col mt-3">
+      </li>
+      <li class="col mt-3">
         <div class="card rounded-4 border-0 shadow-sm card-change-picture3">
             <img class="card-img-top rounded-top-4" src="./images/08.png" alt="">
             <div class="card-body">
-              <div class="card-title fw-bold">等家中-Snow</div>
+              <h2 class="h6 card-title fw-bold">等家中-Snow</h2>
               <div class="card-text border-bottom pb-4">
                 看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...
               </div>
@@ -176,15 +177,15 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
       <div class="py-5 d-flex justify-content-center">
         <a href="adoption.html" class="btn btn-white border-secondary btn-lg rounded-pill px-5">看看更多浪浪</a>
       </div>
   </section>
 
   <footer class="mt-lg-4 border-top border-primary border-3 bg-white">
-    <div class="container">
+    <section class="container">
       <div class="row py-5 justify-content-center">
         <div class="col-lg-10 text-center text-lg-start">
           <div class="row row-cols-1 row-cols-lg-4">
@@ -194,7 +195,7 @@
             <div class="col py-5 py-lg-0">
               <h3>加入奴才團隊</h3>
               <p>我也會畫畫，希望能盡一份心力！</p>
-              <a href="caricature.html"  class="btn btn-white border-secondary btn-lg rounded-pill px-5">聯絡我們</a>
+              <a href="caricature.html"  class="btn btn-white border-secondary btn-lg rounded-pill text-nowrap px-5">聯絡我們</a>
             </div>
             <div class="col">
               <img class="float-lg-end" src="./images/link02.png" class="img-fluid" alt="">
@@ -202,16 +203,16 @@
             <div class="col pt-5 pt-lg-0">
               <h3>加入奴才團隊</h3>
               <p>我也會畫畫，希望能盡一份心力！</p>
-              <a href="adoption.html" class="btn btn-white border-secondary btn-lg rounded-pill px-5">領養專區</a>
+              <a href="adoption.html" class="btn btn-white border-secondary btn-lg rounded-pill text-nowrap px-5">領養專區</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <div class="text-center py-4 bg-secondary text-white mb-0">Copyright © 2021 撿到寶.All rights reserved.</div>
   </footer>
 
-  <div class="custom-picture-button">
+  <div class="d-none d-lg-block custom-picture-button">
     <a href="caricature.html" class="text-decoration-none">
       <div class="bg-white border border-2 border-secondary rounded">
         <p class="fw-bold text-secondary text-center py-2 mb-0">客製我的毛孩圖</p>

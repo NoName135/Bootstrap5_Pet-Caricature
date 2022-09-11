@@ -4,10 +4,6 @@ html, body {
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  /*使物件依序排列*/
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -27,7 +23,7 @@ body {
 }
 
 .font-secondary {
-  font-family: 'Kalam',cursive;
+  font-family: 'Kalam', cursive;
 }
 
 :root {
@@ -10901,7 +10897,6 @@ fieldset:disabled .btn {
 }
 
 .header {
-  position: relative;
   height: 810px;
   background-position: center center;
   background-size: cover;
